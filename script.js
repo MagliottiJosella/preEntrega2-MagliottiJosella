@@ -68,16 +68,114 @@ console.log(Profesional);
 
 
 //Dias disponibles para cada profesional
+// con funcion filtrer crear una variable a partir del elemento del array que sea igual al dia ingresado. ¿¿¿????? NO ME SALEEEEE
 
 
 const arrayDiasGonzalo=['lunes','miercoles','jueves','sabado'];
 const arrayDiasMilo=['martes','viernes','sabado'];
 
+// con un IF decir en funcion de que profesional se eligio :mostrar los dias y filtrar.
+
+// generar un array con horarios , mostrarlos y que elija 
+// generar una variable con ese horario a partir del array horario
+
+
+// GUARDAR TODA LA INFO EN UN OBJETO TURNO! 
+
+
+class TURNO{
+    constructor(dia, horario){
+        this.dia=dia;
+        this.horario=horario;
+        this.profesional=Profesional;
+        this.clientenombre=Cliente.nombre;
+        this.clienteapellido=Cliente.apellido;
+    }
+}
 
 
 
-let Dia=prompt("ingrese el dia que quiere reservar").toLowerCase();
-//Eleccion dia
+// mostrar en pantalla toda la info del turno
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+//Eleccion dia*/
+
+//validacion de la existencia del dia
+
+/*if( Profesional.nombreProfesional === "gonzalo" ){
+    alert("Los dias disponibles con Gonzalo son :"+
+    " "+arrayDiasGonzalo.join( "-"));
+
+    let Dia=prompt("ingrese el dia que quiere reservar").toLowerCase();
+
+    function validaciondia() {
+
+        for (let i = 0; i < arrayDiasGonzalo.length; i++) {
+            if (Dia == arrayDiasGonzalo[i] ) {
+               let Diavalido =arrayDiasGonzalo[i] ;
+               console.log(Diavalido); // para ver si toma bien el dia ( borrar antes de entregar)
+               console.log(i); //para corroborar que funciona bien ( borrar antes de entregar)
+            } 
+            else{
+
+                alert("No esta disponible dicho dia");
+             
+            }
+            
+        }         
+    }
+    
+    let diagonza=validaciondia();
+    console.log(diagonza)
+    
+
+ 
+}
+
+else{
+
+}*/
+
+
+
+
+
+
+
 
 
 
